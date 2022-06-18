@@ -12,6 +12,18 @@
 		03A301AA284F879500974564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A301A9284F879500974564 /* Assets.xcassets */; };
 		03A301AD284F879500974564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A301AB284F879500974564 /* LaunchScreen.storyboard */; };
 		03B9342F2856634A00375787 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B9342E2856634A00375787 /* MainViewController.swift */; };
+		03B93432285A352F00375787 /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B93431285A352F00375787 /* CellModel.swift */; };
+		03B93434285A404800375787 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B93433285A404800375787 /* TaskModel.swift */; };
+		03B93436285A409F00375787 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B93435285A409F00375787 /* CreateTaskViewController.swift */; };
+		03B93438285A47B000375787 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B93437285A47B000375787 /* MainViewModel.swift */; };
+		03B9343A285A614200375787 /* CellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B93439285A614200375787 /* CellViewController.swift */; };
+		03B9343E285A63BC00375787 /* DashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B9343D285A63BC00375787 /* DashboardCell.swift */; };
+		03B93440285A6D3F00375787 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B9343F285A6D3F00375787 /* DashboardModel.swift */; };
+		03B93442285A738400375787 /* UpdateTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B93441285A738400375787 /* UpdateTaskController.swift */; };
+		03B93444285ADC7100375787 /* CreateTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B93443285ADC7100375787 /* CreateTaskViewModel.swift */; };
+		03B93446285AE22700375787 /* TaskNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B93445285AE22700375787 /* TaskNoteViewController.swift */; };
+		03B93448285AF13A00375787 /* UpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B93447285AF13A00375787 /* UpdateViewModel.swift */; };
+		03B9344B285DAC6C00375787 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B9344A285DAC6C00375787 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		03A301AC284F879500974564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03A301AE284F879500974564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03B9342E2856634A00375787 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		03B93431285A352F00375787 /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		03B93433285A404800375787 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		03B93435285A409F00375787 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		03B93437285A47B000375787 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		03B93439285A614200375787 /* CellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewController.swift; sourceTree = "<group>"; };
+		03B9343D285A63BC00375787 /* DashboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
+		03B9343F285A6D3F00375787 /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		03B93441285A738400375787 /* UpdateTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskController.swift; sourceTree = "<group>"; };
+		03B93443285ADC7100375787 /* CreateTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewModel.swift; sourceTree = "<group>"; };
+		03B93445285AE22700375787 /* TaskNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskNoteViewController.swift; sourceTree = "<group>"; };
+		03B93447285AF13A00375787 /* UpdateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewModel.swift; sourceTree = "<group>"; };
+		03B9344A285DAC6C00375787 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +90,7 @@
 		03A3019F284F879100974564 /* GitProj */ = {
 			isa = PBXGroup;
 			children = (
+				03B93449285DAC3900375787 /* Extension */,
 				03B9342D2856633200375787 /* Models */,
 				03B9342C2856632600375787 /* UI */,
 				03A0D4A7284FA9F500781E73 /* App */,
@@ -76,7 +101,7 @@
 		03B9342C2856632600375787 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				03B9342E2856634A00375787 /* MainViewController.swift */,
+				03B934302856688600375787 /* Main */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -84,8 +109,51 @@
 		03B9342D2856633200375787 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				03B93431285A352F00375787 /* CellModel.swift */,
+				03B9343F285A6D3F00375787 /* DashboardModel.swift */,
+				03B93437285A47B000375787 /* MainViewModel.swift */,
+				03B93433285A404800375787 /* TaskModel.swift */,
+				03B93447285AF13A00375787 /* UpdateViewModel.swift */,
+				03B93443285ADC7100375787 /* CreateTaskViewModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		03B934302856688600375787 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				03B9343C285A636E00375787 /* View */,
+				03B9343B285A636000375787 /* Controller */,
+				03B9342E2856634A00375787 /* MainViewController.swift */,
+				03B93441285A738400375787 /* UpdateTaskController.swift */,
+				03B93439285A614200375787 /* CellViewController.swift */,
+				03B93435285A409F00375787 /* CreateTaskViewController.swift */,
+				03B93445285AE22700375787 /* TaskNoteViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		03B9343B285A636000375787 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03B9343C285A636E00375787 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03B9343D285A63BC00375787 /* DashboardCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03B93449285DAC3900375787 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				03B9344A285DAC6C00375787 /* Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +226,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B9344B285DAC6C00375787 /* Extension.swift in Sources */,
+				03B93440285A6D3F00375787 /* DashboardModel.swift in Sources */,
+				03B93438285A47B000375787 /* MainViewModel.swift in Sources */,
+				03B93446285AE22700375787 /* TaskNoteViewController.swift in Sources */,
+				03B93442285A738400375787 /* UpdateTaskController.swift in Sources */,
+				03B93444285ADC7100375787 /* CreateTaskViewModel.swift in Sources */,
+				03B9343E285A63BC00375787 /* DashboardCell.swift in Sources */,
 				03B9342F2856634A00375787 /* MainViewController.swift in Sources */,
+				03B93448285AF13A00375787 /* UpdateViewModel.swift in Sources */,
+				03B9343A285A614200375787 /* CellViewController.swift in Sources */,
 				03A301A1284F879100974564 /* AppDelegate.swift in Sources */,
+				03B93434285A404800375787 /* TaskModel.swift in Sources */,
 				03A301A3284F879100974564 /* SceneDelegate.swift in Sources */,
+				03B93432285A352F00375787 /* CellModel.swift in Sources */,
+				03B93436285A409F00375787 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
